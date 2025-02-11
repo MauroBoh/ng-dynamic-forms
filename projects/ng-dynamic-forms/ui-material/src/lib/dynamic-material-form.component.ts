@@ -25,7 +25,6 @@ import { NgFor } from "@angular/common";
     selector: "dynamic-material-form",
     templateUrl: "./dynamic-material-form.component.html",
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NgFor, DynamicMaterialFormControlContainerComponent]
 })
 export class DynamicMaterialFormComponent extends DynamicFormComponent {

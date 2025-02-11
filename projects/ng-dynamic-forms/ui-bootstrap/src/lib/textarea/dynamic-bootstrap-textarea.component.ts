@@ -14,7 +14,6 @@ import { NgClass } from "@angular/common";
     selector: "dynamic-bootstrap-textarea",
     templateUrl: "./dynamic-bootstrap-textarea.component.html",
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [ReactiveFormsModule, NgClass]
 })
 export class DynamicBootstrapTextAreaComponent extends DynamicFormControlComponent {

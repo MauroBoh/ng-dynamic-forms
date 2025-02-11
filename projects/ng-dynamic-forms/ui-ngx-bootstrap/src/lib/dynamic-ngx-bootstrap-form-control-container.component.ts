@@ -60,7 +60,6 @@ import { NgClass, NgFor, NgTemplateOutlet, NgIf } from "@angular/common";
     selector: "dynamic-ngx-bootstrap-form-control",
     templateUrl: "./dynamic-ngx-bootstrap-form-control-container.component.html",
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [ReactiveFormsModule, NgClass, NgIf, NgTemplateOutlet, NgFor]
 })
 export class DynamicNGxBootstrapFormControlContainerComponent extends DynamicFormControlContainerComponent {
@@ -142,7 +141,6 @@ export function bootstrapUIFormControlMapFn(model: DynamicFormControlModel): Typ
 @Component({
     selector: "dynamic-ngx-bootstrap-form-array",
     templateUrl: "./dynamic-ngx-bootstrap-form-array.component.html",
-    standalone: true,
     imports: [ReactiveFormsModule, NgClass, NgFor, NgTemplateOutlet, DynamicNGxBootstrapFormControlContainerComponent]
 })
 export class DynamicNGxBootstrapFormArrayComponent extends DynamicFormArrayComponent {
@@ -168,7 +166,6 @@ export class DynamicNGxBootstrapFormArrayComponent extends DynamicFormArrayCompo
 @Component({
     selector: "dynamic-ngx-bootstrap-form-group",
     templateUrl: "./dynamic-ngx-bootstrap-form-group.component.html",
-    standalone: true,
     imports: [ReactiveFormsModule, NgClass, NgFor, DynamicNGxBootstrapFormControlContainerComponent]
 })
 export class DynamicNGxBootstrapFormGroupComponent extends DynamicFormGroupComponent {

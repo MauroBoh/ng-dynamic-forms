@@ -15,7 +15,6 @@ import { NgClass } from "@angular/common";
 @Component({
     selector: "dynamic-primeng-slider",
     templateUrl: "./dynamic-primeng-slider.component.html",
-    standalone: true,
     imports: [ReactiveFormsModule, NgClass, SliderModule]
 })
 export class DynamicPrimeNGSliderComponent extends DynamicFormControlComponent {

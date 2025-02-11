@@ -14,7 +14,6 @@ import { NgClass, NgIf, NgFor, AsyncPipe } from "@angular/common";
     selector: "dynamic-ng-bootstrap-radio-group",
     templateUrl: "./dynamic-ng-bootstrap-radio-group.component.html",
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [ReactiveFormsModule, NgClass, NgIf, NgFor, AsyncPipe]
 })
 export class DynamicNGBootstrapRadioGroupComponent extends DynamicFormControlComponent {

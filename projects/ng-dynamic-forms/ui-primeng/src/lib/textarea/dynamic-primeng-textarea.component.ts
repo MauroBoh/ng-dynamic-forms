@@ -15,7 +15,6 @@ import { NgClass } from "@angular/common";
 @Component({
     selector: "dynamic-primeng-textarea",
     templateUrl: "./dynamic-primeng-textarea.component.html",
-    standalone: true,
     imports: [ReactiveFormsModule, NgClass, InputTextareaModule]
 })
 export class DynamicPrimeNGTextAreaComponent extends DynamicFormControlComponent {

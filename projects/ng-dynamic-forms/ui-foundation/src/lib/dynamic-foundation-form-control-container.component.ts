@@ -55,7 +55,6 @@ import { NgClass, NgFor, NgTemplateOutlet, NgIf } from "@angular/common";
     selector: "dynamic-foundation-form-control",
     templateUrl: "./dynamic-foundation-form-control-container.component.html",
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [ReactiveFormsModule, NgClass, NgIf, NgTemplateOutlet, NgFor]
 })
 export class DynamicFoundationFormControlContainerComponent extends DynamicFormControlContainerComponent {
@@ -128,7 +127,6 @@ export function foundationUIFormControlMapFn(model: DynamicFormControlModel): Ty
 @Component({
     selector: "dynamic-foundation-form-array",
     templateUrl: "./dynamic-foundation-form-array.component.html",
-    standalone: true,
     imports: [ReactiveFormsModule, NgClass, NgFor, NgTemplateOutlet, DynamicFoundationFormControlContainerComponent]
 })
 export class DynamicFoundationFormArrayComponent extends DynamicFormArrayComponent {
@@ -153,7 +151,6 @@ export class DynamicFoundationFormArrayComponent extends DynamicFormArrayCompone
 @Component({
     selector: "dynamic-foundation-form-group",
     templateUrl: "./dynamic-foundation-form-group.component.html",
-    standalone: true,
     imports: [ReactiveFormsModule, NgClass, NgIf, NgFor, DynamicFoundationFormControlContainerComponent]
 })
 export class DynamicFoundationFormGroupComponent extends DynamicFormGroupComponent {

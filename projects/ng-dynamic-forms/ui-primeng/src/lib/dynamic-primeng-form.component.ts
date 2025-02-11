@@ -25,7 +25,6 @@ import { NgFor } from "@angular/common";
     selector: "dynamic-primeng-form",
     templateUrl: "./dynamic-primeng-form.component.html",
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NgFor, DynamicPrimeNGFormControlContainerComponent]
 })
 export class DynamicPrimeNGFormComponent extends DynamicFormComponent {

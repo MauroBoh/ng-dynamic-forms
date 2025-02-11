@@ -14,7 +14,6 @@ import { NgClass, NgFor, AsyncPipe } from "@angular/common";
 @Component({
     selector: "dynamic-primeng-radio-group",
     templateUrl: "./dynamic-primeng-radio-group.component.html",
-    standalone: true,
     imports: [ReactiveFormsModule, NgClass, NgFor, RadioButtonModule, AsyncPipe]
 })
 export class DynamicPrimeNGRadioGroupComponent extends DynamicFormControlComponent {

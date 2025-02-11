@@ -25,7 +25,6 @@ import { NgFor } from "@angular/common";
     selector: "dynamic-ionic-form",
     templateUrl: "./dynamic-ionic-form.component.html",
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NgFor, DynamicIonicFormControlContainerComponent]
 })
 export class DynamicIonicFormComponent extends DynamicFormComponent {

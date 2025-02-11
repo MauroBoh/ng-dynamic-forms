@@ -17,7 +17,6 @@ import { NgClass, NgIf, NgFor } from "@angular/common";
 @Component({
     selector: "dynamic-material-datepicker",
     templateUrl: "./dynamic-material-datepicker.component.html",
-    standalone: true,
     imports: [MatFormFieldModule, ReactiveFormsModule, NgClass, NgIf, MatInputModule, MatDatepickerModule, NgFor]
 })
 export class DynamicMaterialDatePickerComponent extends DynamicFormControlComponent {

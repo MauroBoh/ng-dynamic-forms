@@ -14,7 +14,6 @@ import { NgClass, AsyncPipe } from "@angular/common";
 @Component({
     selector: "dynamic-primeng-multiselect",
     templateUrl: "./dynamic-primeng-multiselect.component.html",
-    standalone: true,
     imports: [ReactiveFormsModule, NgClass, MultiSelectModule, AsyncPipe]
 })
 export class DynamicPrimeNGMultiSelectComponent extends DynamicFormControlComponent {

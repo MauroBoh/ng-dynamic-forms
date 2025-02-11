@@ -22,7 +22,6 @@ import { NgClass, NgIf, NgFor, AsyncPipe } from "@angular/common";
 @Component({
     selector: "dynamic-material-input",
     templateUrl: "./dynamic-material-input.component.html",
-    standalone: true,
     imports: [MatFormFieldModule, ReactiveFormsModule, NgClass, NgIf, MatInputModule, MatAutocompleteModule, NgFor, MatOptionModule,
         AsyncPipe]
 })

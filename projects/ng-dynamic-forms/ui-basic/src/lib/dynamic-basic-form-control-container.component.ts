@@ -54,7 +54,6 @@ import { NgClass, NgFor, NgTemplateOutlet, NgIf } from "@angular/common";
     selector: "dynamic-basic-form-control",
     templateUrl: "./dynamic-basic-form-control-container.component.html",
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [FormsModule, ReactiveFormsModule, NgClass, NgIf, NgTemplateOutlet, NgFor]
 })
 export class DynamicBasicFormControlContainerComponent extends DynamicFormControlContainerComponent {
@@ -125,7 +124,6 @@ export function basicUIFormControlMapFn(model: DynamicFormControlModel): Type<Dy
 @Component({
     selector: "dynamic-basic-form-array",
     templateUrl: "./dynamic-basic-form-array.component.html",
-    standalone: true,
     imports: [FormsModule, ReactiveFormsModule, NgClass, NgFor, NgTemplateOutlet, DynamicBasicFormControlContainerComponent]
 })
 export class DynamicBasicFormArrayComponent extends DynamicFormArrayComponent {
@@ -151,7 +149,6 @@ export class DynamicBasicFormArrayComponent extends DynamicFormArrayComponent {
 @Component({
     selector: "dynamic-basic-form-group",
     templateUrl: "./dynamic-basic-form-group.component.html",
-    standalone: true,
     imports: [FormsModule, ReactiveFormsModule, NgClass, NgIf, NgFor, DynamicBasicFormControlContainerComponent]
 })
 export class DynamicBasicFormGroupComponent extends DynamicFormGroupComponent {

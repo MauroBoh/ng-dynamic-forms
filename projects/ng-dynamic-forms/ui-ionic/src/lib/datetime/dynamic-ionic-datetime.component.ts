@@ -15,7 +15,6 @@ import { NgIf, NgClass } from "@angular/common";
 @Component({
     selector: "dynamic-ionic-datetime",
     templateUrl: "./dynamic-ionic-datetime.component.html",
-    standalone: true,
     imports: [IonicModule, ReactiveFormsModule, NgIf, NgClass]
 })
 export class DynamicIonicDateTimeComponent extends DynamicFormControlComponent {

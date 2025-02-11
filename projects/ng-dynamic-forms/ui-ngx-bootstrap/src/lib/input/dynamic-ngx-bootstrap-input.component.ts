@@ -15,7 +15,6 @@ import { NgIf, NgClass, NgFor, AsyncPipe } from "@angular/common";
 @Component({
     selector: "dynamic-ngx-bootstrap-input",
     templateUrl: "./dynamic-ngx-bootstrap-input.component.html",
-    standalone: true,
     imports: [ReactiveFormsModule, NgIf, DynamicFormsCoreModule, NgClass, NgxMaskDirective, NgFor, AsyncPipe]
 })
 export class DynamicNGxBootstrapInputComponent extends DynamicFormControlComponent {

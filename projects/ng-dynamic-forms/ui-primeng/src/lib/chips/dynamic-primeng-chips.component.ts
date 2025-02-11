@@ -17,7 +17,6 @@ import { NgClass } from "@angular/common";
 @Component({
     selector: "dynamic-primeng-chips",
     templateUrl: "./dynamic-primeng-chips.component.html",
-    standalone: true,
     imports: [ReactiveFormsModule, NgClass, ChipsModule]
 })
 export class DynamicPrimeNGChipsComponent extends DynamicPrimeNGFormControlWithTemplateComponent {

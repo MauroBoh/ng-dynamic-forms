@@ -14,7 +14,6 @@ import { NgClass } from "@angular/common";
     selector: "dynamic-foundation-checkbox",
     templateUrl: "./dynamic-foundation-checkbox.component.html",
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [ReactiveFormsModule, NgClass]
 })
 export class DynamicFoundationCheckboxComponent extends DynamicFormControlComponent {

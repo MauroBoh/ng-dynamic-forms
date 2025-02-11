@@ -25,7 +25,6 @@ import { NgFor } from "@angular/common";
     selector: "dynamic-basic-form",
     templateUrl: "./dynamic-basic-form.component.html",
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NgFor, DynamicBasicFormControlContainerComponent]
 })
 export class DynamicBasicFormComponent extends DynamicFormComponent {

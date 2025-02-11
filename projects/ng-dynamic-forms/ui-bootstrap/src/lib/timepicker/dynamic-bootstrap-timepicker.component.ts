@@ -15,7 +15,6 @@ import { NgClass } from "@angular/common";
     selector: "dynamic-bootstrap-timepicker",
     templateUrl: "./dynamic-bootstrap-timepicker.component.html",
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [ReactiveFormsModule, TimepickerModule, NgClass]
 })
 export class DynamicBootstrapTimePickerComponent extends DynamicFormControlComponent {

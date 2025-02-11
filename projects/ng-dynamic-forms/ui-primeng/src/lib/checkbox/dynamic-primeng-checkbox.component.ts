@@ -14,7 +14,6 @@ import { NgClass } from "@angular/common";
 @Component({
     selector: "dynamic-primeng-checkbox",
     templateUrl: "./dynamic-primeng-checkbox.component.html",
-    standalone: true,
     imports: [ReactiveFormsModule, NgClass, CheckboxModule]
 })
 export class DynamicPrimeNGCheckboxComponent extends DynamicFormControlComponent {

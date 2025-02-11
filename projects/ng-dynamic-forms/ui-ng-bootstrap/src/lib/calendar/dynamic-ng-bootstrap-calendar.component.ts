@@ -15,7 +15,6 @@ import { NgClass } from "@angular/common";
     selector: "dynamic-ng-bootstrap-calendar",
     templateUrl: "./dynamic-ng-bootstrap-calendar.component.html",
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [ReactiveFormsModule, NgbDatepickerModule, NgClass]
 })
 export class DynamicNGBootstrapCalendarComponent extends DynamicFormControlComponent {

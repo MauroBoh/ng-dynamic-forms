@@ -15,7 +15,6 @@ import { NgClass } from "@angular/common";
 @Component({
     selector: "dynamic-primeng-rating",
     templateUrl: "./dynamic-primeng-rating.component.html",
-    standalone: true,
     imports: [ReactiveFormsModule, NgClass, RatingModule]
 })
 export class DynamicPrimeNGRatingComponent extends DynamicFormControlComponent {

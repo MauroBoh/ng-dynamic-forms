@@ -14,7 +14,6 @@ import { NgClass } from "@angular/common";
     selector: "dynamic-basic-checkbox",
     templateUrl: "./dynamic-basic-checkbox.component.html",
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [FormsModule, ReactiveFormsModule, NgClass]
 })
 export class DynamicBasicCheckboxComponent extends DynamicFormControlComponent {

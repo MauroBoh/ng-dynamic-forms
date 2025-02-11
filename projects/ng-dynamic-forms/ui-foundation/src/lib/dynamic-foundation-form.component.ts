@@ -25,7 +25,6 @@ import { NgFor } from "@angular/common";
     selector: "dynamic-foundation-form",
     templateUrl: "./dynamic-foundation-form.component.html",
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NgFor, DynamicFoundationFormControlContainerComponent]
 })
 export class DynamicFoundationFormComponent extends DynamicFormComponent {

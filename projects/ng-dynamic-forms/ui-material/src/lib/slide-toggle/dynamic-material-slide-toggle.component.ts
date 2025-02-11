@@ -16,7 +16,6 @@ import { NgClass, NgIf } from "@angular/common";
 @Component({
     selector: "dynamic-material-slide-toggle",
     templateUrl: "./dynamic-material-slide-toggle.component.html",
-    standalone: true,
     imports: [ReactiveFormsModule, MatSlideToggleModule, NgClass, NgIf]
 })
 export class DynamicMaterialSlideToggleComponent extends DynamicFormControlComponent {

@@ -17,7 +17,6 @@ import { NgClass } from "@angular/common";
 @Component({
     selector: "dynamic-primeng-calendar",
     templateUrl: "./dynamic-primeng-calendar.component.html",
-    standalone: true,
     imports: [ReactiveFormsModule, NgClass, CalendarModule]
 })
 export class DynamicPrimeNGCalendarComponent extends DynamicFormControlComponent {

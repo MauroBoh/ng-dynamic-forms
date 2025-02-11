@@ -8,7 +8,6 @@ import { DynamicListDirective } from "./dynamic-list.directive";
         <div [dynamicList]="testList1"></div>
         <div [dynamicList]="testList2"></div>
     `,
-    standalone: true,
     imports: [DynamicListDirective]
 })
 class TestComponent {
@@ -36,7 +35,7 @@ describe("DynamicListDirective test suite", () => {
     });
 
     it("should have one set list", () => {
-        expect(directives[0].attributes["list"]).toBeUndefined();
-        expect(directives[1].attributes["list"]).toEqual(fixture.componentInstance.testList2);
+        expect(directives[0].attributes.list).toBeUndefined();
+        expect(directives[1].attributes.list).toEqual(fixture.componentInstance.testList2);
     });
 });

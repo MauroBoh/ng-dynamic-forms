@@ -14,7 +14,6 @@ import { NgClass, NgIf, NgFor, AsyncPipe } from "@angular/common";
     selector: "dynamic-foundation-radio-group",
     templateUrl: "./dynamic-foundation-radio-group.component.html",
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [ReactiveFormsModule, NgClass, NgIf, NgFor, AsyncPipe]
 })
 export class DynamicFoundationRadioGroupComponent extends DynamicFormControlComponent {

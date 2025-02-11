@@ -26,7 +26,6 @@ import { NgClass, NgFor, AsyncPipe } from "@angular/common";
 @Component({
     selector: "dynamic-material-chips",
     templateUrl: "./dynamic-material-chips.component.html",
-    standalone: true,
     imports: [MatFormFieldModule, ReactiveFormsModule, NgClass, MatChipsModule, NgFor, MatIconModule, MatInputModule, MatAutocompleteModule,
         MatOptionModule, AsyncPipe]
 })

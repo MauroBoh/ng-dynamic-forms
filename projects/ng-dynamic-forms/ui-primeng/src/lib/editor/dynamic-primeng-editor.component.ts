@@ -15,7 +15,6 @@ import { NgClass } from "@angular/common";
 @Component({
     selector: "dynamic-primeng-editor",
     templateUrl: "./dynamic-primeng-editor.component.html",
-    standalone: true,
     imports: [ReactiveFormsModule, NgClass, EditorModule]
 })
 export class DynamicPrimeNGEditorComponent extends DynamicFormControlComponent {

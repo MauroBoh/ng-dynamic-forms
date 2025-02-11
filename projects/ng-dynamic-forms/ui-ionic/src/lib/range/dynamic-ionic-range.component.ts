@@ -14,7 +14,6 @@ import { NgIf, NgClass } from "@angular/common";
 @Component({
     selector: "dynamic-ionic-range",
     templateUrl: "./dynamic-ionic-range.component.html",
-    standalone: true,
     imports: [IonicModule, ReactiveFormsModule, NgIf, NgClass]
 })
 export class DynamicIonicRangeComponent extends DynamicFormControlComponent {

@@ -14,7 +14,6 @@ import { NgClass } from "@angular/common";
 @Component({
     selector: "dynamic-primeng-input-switch",
     templateUrl: "./dynamic-primeng-input-switch.component.html",
-    standalone: true,
     imports: [ReactiveFormsModule, NgClass, InputSwitchModule]
 })
 export class DynamicPrimeNGInputSwitchComponent extends DynamicFormControlComponent {

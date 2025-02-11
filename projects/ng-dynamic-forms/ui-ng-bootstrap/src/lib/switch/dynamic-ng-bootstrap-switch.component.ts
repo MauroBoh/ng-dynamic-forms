@@ -14,7 +14,6 @@ import { NgClass } from "@angular/common";
     selector: "dynamic-ng-bootstrap-switch",
     templateUrl: "./dynamic-ng-bootstrap-switch.component.html",
     changeDetection: ChangeDetectionStrategy.Default,
-    standalone: true,
     imports: [ReactiveFormsModule, NgClass]
 })
 export class DynamicNGBootstrapSwitchComponent extends DynamicFormControlComponent {

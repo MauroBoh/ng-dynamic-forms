@@ -17,7 +17,6 @@ import { NgClass } from "@angular/common";
 @Component({
     selector: "dynamic-primeng-autocomplete",
     templateUrl: "./dynamic-primeng-autocomplete.component.html",
-    standalone: true,
     imports: [ReactiveFormsModule, NgClass, AutoCompleteModule]
 })
 export class DynamicPrimeNGAutoCompleteComponent extends DynamicPrimeNGFormControlWithTemplateComponent {

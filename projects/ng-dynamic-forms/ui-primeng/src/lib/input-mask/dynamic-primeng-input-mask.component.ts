@@ -15,7 +15,6 @@ import { NgClass } from "@angular/common";
 @Component({
     selector: "dynamic-primeng-input-mask",
     templateUrl: "./dynamic-primeng-input-mask.component.html",
-    standalone: true,
     imports: [ReactiveFormsModule, NgClass, InputMaskModule]
 })
 export class DynamicPrimeNGInputMaskComponent extends DynamicFormControlComponent {

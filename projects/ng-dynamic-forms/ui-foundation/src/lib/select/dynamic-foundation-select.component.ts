@@ -14,7 +14,6 @@ import { NgClass, NgFor, AsyncPipe } from "@angular/common";
     selector: "dynamic-foundation-select",
     templateUrl: "./dynamic-foundation-select.component.html",
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [ReactiveFormsModule, NgClass, NgFor, AsyncPipe]
 })
 export class DynamicFoundationSelectComponent extends DynamicFormControlComponent {

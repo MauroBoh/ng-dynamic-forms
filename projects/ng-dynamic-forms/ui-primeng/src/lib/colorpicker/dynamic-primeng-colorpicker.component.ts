@@ -14,7 +14,6 @@ import { NgClass } from "@angular/common";
 @Component({
     selector: "dynamic-primeng-colorpicker",
     templateUrl: "./dynamic-primeng-colorpicker.component.html",
-    standalone: true,
     imports: [ReactiveFormsModule, NgClass, ColorPickerModule]
 })
 export class DynamicPrimeNGColorPickerComponent extends DynamicFormControlComponent {

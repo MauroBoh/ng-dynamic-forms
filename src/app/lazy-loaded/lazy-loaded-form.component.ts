@@ -8,7 +8,6 @@ import { NgFor } from "@angular/common";
 @Component({
     selector: "dynamic-lazy-loaded-form",
     templateUrl: "./lazy-loaded-form.component.html",
-    standalone: true,
     imports: [NgFor, ReactiveFormsModule, DynamicBootstrapFormControlContainerComponent]
 })
 export class LazyLoadedFormComponent {

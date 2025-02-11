@@ -14,7 +14,6 @@ import { NgClass, NgIf, NgFor, AsyncPipe } from "@angular/common";
 @Component({
     selector: "dynamic-ionic-radio-group",
     templateUrl: "./dynamic-ionic-radio-group.component.html",
-    standalone: true,
     imports: [ReactiveFormsModule, IonicModule, NgClass, NgIf, NgFor, AsyncPipe]
 })
 export class DynamicIonicRadioGroupComponent extends DynamicFormControlComponent {

@@ -15,7 +15,6 @@ import { NgClass, NgIf, NgFor, AsyncPipe } from "@angular/common";
 @Component({
     selector: "dynamic-primeng-input",
     templateUrl: "./dynamic-primeng-input.component.html",
-    standalone: true,
     imports: [ReactiveFormsModule, NgClass, InputTextModule, DynamicFormsCoreModule, NgIf, NgFor, AsyncPipe]
 })
 export class DynamicPrimeNGInputComponent extends DynamicFormControlComponent {

@@ -15,7 +15,6 @@ import { NgClass, NgFor } from "@angular/common";
 @Component({
     selector: "dynamic-ngx-bootstrap-checkbox-group",
     templateUrl: "./dynamic-ngx-bootstrap-checkbox-group.component.html",
-    standalone: true,
     imports: [ReactiveFormsModule, NgClass, NgFor, ButtonsModule]
 })
 export class DynamicNGxBootstrapCheckboxGroupComponent extends DynamicFormControlComponent {

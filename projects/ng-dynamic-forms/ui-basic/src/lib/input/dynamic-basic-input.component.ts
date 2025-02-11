@@ -16,7 +16,6 @@ import { NgIf, NgClass, NgFor, AsyncPipe } from "@angular/common";
     selector: "dynamic-basic-input",
     templateUrl: "./dynamic-basic-input.component.html",
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [FormsModule, ReactiveFormsModule, NgIf, DynamicFormsCoreModule, NgClass, NgxMaskDirective, NgFor, AsyncPipe]
 })
 export class DynamicBasicInputComponent extends DynamicFormControlComponent {

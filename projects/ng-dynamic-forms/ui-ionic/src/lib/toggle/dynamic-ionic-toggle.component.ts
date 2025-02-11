@@ -14,7 +14,6 @@ import { NgIf, NgClass } from "@angular/common";
 @Component({
     selector: "dynamic-ionic-toggle",
     templateUrl: "./dynamic-ionic-toggle.component.html",
-    standalone: true,
     imports: [IonicModule, ReactiveFormsModule, NgIf, NgClass]
 })
 export class DynamicIonicToggleComponent extends DynamicFormControlComponent {

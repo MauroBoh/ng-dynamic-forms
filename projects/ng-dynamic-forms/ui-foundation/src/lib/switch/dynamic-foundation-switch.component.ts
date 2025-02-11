@@ -14,7 +14,6 @@ import { NgClass } from "@angular/common";
     selector: "dynamic-foundation-switch",
     templateUrl: "./dynamic-foundation-switch.component.html",
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [ReactiveFormsModule, NgClass]
 })
 export class DynamicFoundationSwitchComponent extends DynamicFormControlComponent {

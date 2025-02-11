@@ -14,7 +14,6 @@ import { NgClass, NgFor, AsyncPipe } from "@angular/common";
     selector: "dynamic-basic-select",
     templateUrl: "./dynamic-basic-select.component.html",
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [FormsModule, ReactiveFormsModule, NgClass, NgFor, AsyncPipe]
 })
 export class DynamicBasicSelectComponent extends DynamicFormControlComponent {

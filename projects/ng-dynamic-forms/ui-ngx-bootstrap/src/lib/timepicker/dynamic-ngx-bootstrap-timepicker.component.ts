@@ -14,7 +14,6 @@ import { NgClass } from "@angular/common";
 @Component({
     selector: "dynamic-ngx-bootstrap-timepicker",
     templateUrl: "./dynamic-ngx-bootstrap-timepicker.component.html",
-    standalone: true,
     imports: [ReactiveFormsModule, TimepickerModule, NgClass]
 })
 export class DynamicNGxBootstrapTimePickerComponent extends DynamicFormControlComponent {

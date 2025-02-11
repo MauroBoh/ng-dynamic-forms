@@ -14,7 +14,6 @@ import { RatingModule } from "ngx-bootstrap/rating";
 @Component({
     selector: "dynamic-ngx-bootstrap-rating",
     templateUrl: "./dynamic-ngx-bootstrap-rating.component.html",
-    standalone: true,
     imports: [ReactiveFormsModule, RatingModule, NgClass]
 })
 export class DynamicNGxBootstrapRatingComponent extends DynamicFormControlComponent {

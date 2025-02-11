@@ -13,7 +13,6 @@ import { NgClass, NgFor, AsyncPipe } from "@angular/common";
 @Component({
     selector: "dynamic-ngx-bootstrap-select",
     templateUrl: "./dynamic-ngx-bootstrap-select.component.html",
-    standalone: true,
     imports: [ReactiveFormsModule, NgClass, NgFor, AsyncPipe]
 })
 export class DynamicNGxBootstrapSelectComponent extends DynamicFormControlComponent {

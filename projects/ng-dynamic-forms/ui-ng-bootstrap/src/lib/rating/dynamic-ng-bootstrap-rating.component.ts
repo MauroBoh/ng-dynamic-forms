@@ -16,7 +16,6 @@ import { NgClass } from "@angular/common";
     selector: "dynamic-ng-bootstrap-rating",
     templateUrl: "./dynamic-ng-bootstrap-rating.component.html",
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [ReactiveFormsModule, NgbRatingModule, NgClass]
 })
 export class DynamicNGBootstrapRatingComponent extends DynamicFormControlComponent {

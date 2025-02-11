@@ -16,7 +16,6 @@ import { NgClass } from "@angular/common";
 @Component({
     selector: "dynamic-material-checkbox",
     templateUrl: "./dynamic-material-checkbox.component.html",
-    standalone: true,
     imports: [ReactiveFormsModule, MatCheckboxModule, NgClass]
 })
 export class DynamicMaterialCheckboxComponent extends DynamicFormControlComponent {

@@ -15,7 +15,6 @@ import { NgClass } from "@angular/common";
 @Component({
     selector: "dynamic-material-slider",
     templateUrl: "./dynamic-material-slider.component.html",
-    standalone: true,
     imports: [ReactiveFormsModule, MatSliderModule, NgClass]
 })
 export class DynamicMaterialSliderComponent extends DynamicFormControlComponent {

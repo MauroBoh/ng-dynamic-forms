@@ -63,7 +63,6 @@ import { NgClass, NgFor, NgTemplateOutlet, NgIf } from "@angular/common";
     selector: "dynamic-material-form-control",
     templateUrl: "./dynamic-material-form-control-container.component.html",
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [ReactiveFormsModule, NgClass, NgIf, NgTemplateOutlet, NgFor, MatFormFieldModule]
 })
 export class DynamicMaterialFormControlContainerComponent extends DynamicFormControlContainerComponent {
@@ -155,7 +154,6 @@ export function materialUIFormControlMapFn(model: DynamicFormControlModel): Type
 @Component({
     selector: "dynamic-material-form-array",
     templateUrl: "./dynamic-material-form-array.component.html",
-    standalone: true,
     imports: [ReactiveFormsModule, NgClass, NgFor, NgTemplateOutlet, DynamicMaterialFormControlContainerComponent]
 })
 export class DynamicMaterialFormArrayComponent extends DynamicFormArrayComponent {
@@ -180,7 +178,6 @@ export class DynamicMaterialFormArrayComponent extends DynamicFormArrayComponent
 @Component({
     selector: "dynamic-material-form-group",
     templateUrl: "./dynamic-material-form-group.component.html",
-    standalone: true,
     imports: [ReactiveFormsModule, NgClass, NgFor, DynamicMaterialFormControlContainerComponent]
 })
 export class DynamicMaterialFormGroupComponent extends DynamicFormGroupComponent {

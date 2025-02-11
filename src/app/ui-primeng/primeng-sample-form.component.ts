@@ -4,7 +4,6 @@ import {
     DynamicFormControlModel,
     DynamicFormLayout,
     DynamicFormControlEvent,
-    DynamicTemplateDirective
 } from "@ng-dynamic-forms/core";
 import { PRIME_NG_SAMPLE_FORM_MODEL } from "./primeng-sample-form.model";
 import { PRIME_NG_SAMPLE_FORM_LAYOUT } from "./primeng-sample-form.layout";
@@ -20,8 +19,7 @@ import { DynamicPrimeNGFormComponent } from "@ng-dynamic-forms/ui-primeng";
     ],
     templateUrl: "./primeng-sample-form.component.html",
     encapsulation: ViewEncapsulation.None,
-    standalone: true,
-    imports: [JsonPipe, ReactiveFormsModule, DynamicPrimeNGFormComponent, DynamicTemplateDirective]
+    imports: [JsonPipe, ReactiveFormsModule, DynamicPrimeNGFormComponent]
 })
 export class PrimeNGSampleFormComponent {
     formModel: DynamicFormControlModel[] = PRIME_NG_SAMPLE_FORM_MODEL;

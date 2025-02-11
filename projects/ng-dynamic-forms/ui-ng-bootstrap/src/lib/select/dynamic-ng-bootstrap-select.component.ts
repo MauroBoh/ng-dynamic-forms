@@ -14,7 +14,6 @@ import { NgClass, NgFor, AsyncPipe } from "@angular/common";
     selector: "dynamic-ng-bootstrap-select",
     templateUrl: "./dynamic-ng-bootstrap-select.component.html",
     changeDetection: ChangeDetectionStrategy.Default,
-    standalone: true,
     imports: [ReactiveFormsModule, NgClass, NgFor, AsyncPipe]
 })
 export class DynamicNGBootstrapSelectComponent extends DynamicFormControlComponent {

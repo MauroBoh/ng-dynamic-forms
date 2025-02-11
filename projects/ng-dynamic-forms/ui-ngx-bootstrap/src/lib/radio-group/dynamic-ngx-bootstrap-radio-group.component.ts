@@ -13,7 +13,6 @@ import { ButtonsModule } from "ngx-bootstrap/buttons";
 @Component({
     selector: "dynamic-ngx-bootstrap-radio-group",
     templateUrl: "./dynamic-ngx-bootstrap-radio-group.component.html",
-    standalone: true,
     imports: [ReactiveFormsModule, ButtonsModule, NgClass, NgFor, AsyncPipe]
 })
 export class DynamicNGxBootstrapRadioGroupComponent extends DynamicFormControlComponent {

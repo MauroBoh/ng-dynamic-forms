@@ -14,7 +14,6 @@ import { NgIf, NgClass } from "@angular/common";
 @Component({
     selector: "dynamic-ionic-textarea",
     templateUrl: "./dynamic-ionic-textarea.component.html",
-    standalone: true,
     imports: [IonicModule, ReactiveFormsModule, NgIf, NgClass]
 })
 export class DynamicIonicTextAreaComponent extends DynamicFormControlComponent {

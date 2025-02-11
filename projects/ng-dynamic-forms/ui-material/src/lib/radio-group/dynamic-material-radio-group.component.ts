@@ -15,7 +15,6 @@ import { NgClass, NgFor, AsyncPipe } from "@angular/common";
 @Component({
     selector: "dynamic-material-radio-group",
     templateUrl: "./dynamic-material-radio-group.component.html",
-    standalone: true,
     imports: [ReactiveFormsModule, MatRadioModule, NgClass, NgFor, AsyncPipe]
 })
 export class DynamicMaterialRadioGroupComponent extends DynamicFormControlComponent {

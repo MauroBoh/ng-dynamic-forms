@@ -14,7 +14,6 @@ import { NgClass } from "@angular/common";
     selector: "dynamic-ng-bootstrap-checkbox",
     templateUrl: "./dynamic-ng-bootstrap-checkbox.component.html",
     changeDetection: ChangeDetectionStrategy.Default,
-    standalone: true,
     imports: [ReactiveFormsModule, NgClass]
 })
 export class DynamicNGBootstrapCheckboxComponent extends DynamicFormControlComponent {

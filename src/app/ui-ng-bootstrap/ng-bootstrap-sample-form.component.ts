@@ -17,7 +17,6 @@ import { ReactiveFormsModule } from "@angular/forms";
     styleUrls: [],
     templateUrl: "./ng-bootstrap-sample-form.component.html",
     encapsulation: ViewEncapsulation.None,
-    standalone: true,
     imports: [JsonPipe, ReactiveFormsModule, DynamicNGBootstrapFormComponent]
 })
 export class NGBootstrapSampleFormComponent {

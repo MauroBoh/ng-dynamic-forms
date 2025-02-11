@@ -14,7 +14,6 @@ import { NgIf, NgClass } from "@angular/common";
 @Component({
     selector: "dynamic-ionic-checkbox",
     templateUrl: "./dynamic-ionic-checkbox.component.html",
-    standalone: true,
     imports: [IonicModule, ReactiveFormsModule, NgIf, NgClass]
 })
 export class DynamicIonicCheckboxComponent extends DynamicFormControlComponent {

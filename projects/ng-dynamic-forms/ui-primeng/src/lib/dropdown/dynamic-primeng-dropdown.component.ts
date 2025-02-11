@@ -16,7 +16,6 @@ import { NgClass, AsyncPipe } from "@angular/common";
 @Component({
     selector: "dynamic-primeng-dropdown",
     templateUrl: "./dynamic-primeng-dropdown.component.html",
-    standalone: true,
     imports: [ReactiveFormsModule, NgClass, DropdownModule, AsyncPipe]
 })
 export class DynamicPrimeNGDropdownComponent extends DynamicPrimeNGFormControlWithTemplateComponent {

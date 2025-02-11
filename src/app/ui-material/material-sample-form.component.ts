@@ -9,7 +9,6 @@ import {
     DynamicFormControlModel,
     DynamicFormLayout,
     DynamicFormControlEvent,
-    DynamicTemplateDirective
 } from "@ng-dynamic-forms/core";
 import { MATERIAL_SAMPLE_FORM_MODEL } from "./material-sample-form.model";
 import { MATERIAL_SAMPLE_FORM_LAYOUT } from "./material-sample-form.layout";
@@ -19,8 +18,7 @@ import { MATERIAL_SAMPLE_FORM_LAYOUT } from "./material-sample-form.layout";
     styleUrls: ["../../../node_modules/@angular/material/prebuilt-themes/indigo-pink.css"],
     templateUrl: "./material-sample-form.component.html",
     encapsulation: ViewEncapsulation.None,
-    standalone: true,
-    imports: [JsonPipe, MatNativeDateModule, MatCardModule, ReactiveFormsModule, DynamicMaterialFormComponent, DynamicTemplateDirective]
+    imports: [JsonPipe, MatNativeDateModule, MatCardModule, ReactiveFormsModule, DynamicMaterialFormComponent]
 })
 export class MaterialSampleFormComponent {
     formModel: DynamicFormControlModel[] = MATERIAL_SAMPLE_FORM_MODEL;

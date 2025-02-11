@@ -14,7 +14,6 @@ import { NgIf, NgClass } from "@angular/common";
 @Component({
     selector: "dynamic-ionic-input",
     templateUrl: "./dynamic-ionic-input.component.html",
-    standalone: true,
     imports: [IonicModule, ReactiveFormsModule, NgIf, NgClass]
 })
 export class DynamicIonicInputComponent extends DynamicFormControlComponent {

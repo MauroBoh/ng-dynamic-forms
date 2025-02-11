@@ -25,7 +25,6 @@ import { NgFor } from "@angular/common";
     selector: "dynamic-ng-bootstrap-form",
     templateUrl: "./dynamic-ng-bootstrap-form.component.html",
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [NgFor, DynamicNGBootstrapFormControlContainerComponent]
 })
 export class DynamicNGBootstrapFormComponent extends DynamicFormComponent {

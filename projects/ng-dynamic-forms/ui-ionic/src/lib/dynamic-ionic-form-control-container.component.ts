@@ -60,7 +60,6 @@ import { NgClass, NgFor, NgTemplateOutlet, NgIf } from "@angular/common";
     selector: "dynamic-ionic-form-control",
     templateUrl: "./dynamic-ionic-form-control-container.component.html",
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [ReactiveFormsModule, NgClass, NgTemplateOutlet]
 })
 export class DynamicIonicFormControlContainerComponent extends DynamicFormControlContainerComponent {
@@ -144,7 +143,6 @@ export function ionicUIFormControlMapFn(model: DynamicFormControlModel): Type<Dy
 @Component({
     selector: "dynamic-ionic-form-array",
     templateUrl: "./dynamic-ionic-form-array.component.html",
-    standalone: true,
     imports: [ReactiveFormsModule, NgClass, NgFor, NgTemplateOutlet, DynamicIonicFormControlContainerComponent]
 })
 export class DynamicIonicFormArrayComponent extends DynamicFormArrayComponent {
@@ -169,7 +167,6 @@ export class DynamicIonicFormArrayComponent extends DynamicFormArrayComponent {
 @Component({
     selector: "dynamic-ionic-form-group",
     templateUrl: "./dynamic-ionic-form-group.component.html",
-    standalone: true,
     imports: [ReactiveFormsModule, NgClass, NgIf, NgFor, DynamicIonicFormControlContainerComponent]
 })
 export class DynamicIonicFormGroupComponent extends DynamicFormGroupComponent {

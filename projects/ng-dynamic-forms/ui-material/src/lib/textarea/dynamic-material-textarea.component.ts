@@ -17,7 +17,6 @@ import { NgClass, NgIf, NgFor } from "@angular/common";
 @Component({
     selector: "dynamic-material-textarea",
     templateUrl: "./dynamic-material-textarea.component.html",
-    standalone: true,
     imports: [MatFormFieldModule, ReactiveFormsModule, NgClass, NgIf, MatInputModule, TextFieldModule, NgFor]
 })
 export class DynamicMaterialTextAreaComponent extends DynamicMaterialFormInputControlComponent {

@@ -16,7 +16,6 @@ import { NgClass, NgIf } from "@angular/common";
     selector: "dynamic-ng-bootstrap-datepicker",
     templateUrl: "./dynamic-ng-bootstrap-datepicker.component.html",
     changeDetection: ChangeDetectionStrategy.Default,
-    standalone: true,
     imports: [ReactiveFormsModule, NgbDatepickerModule, NgClass, NgIf]
 })
 export class DynamicNGBootstrapDatePickerComponent extends DynamicFormControlComponent {

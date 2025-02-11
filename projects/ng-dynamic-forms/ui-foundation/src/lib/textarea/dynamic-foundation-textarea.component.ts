@@ -14,7 +14,6 @@ import { NgClass } from "@angular/common";
     selector: "dynamic-foundation-textarea",
     templateUrl: "./dynamic-foundation-textarea.component.html",
     changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: true,
     imports: [ReactiveFormsModule, NgClass]
 })
 export class DynamicFoundationTextAreaComponent extends DynamicFormControlComponent {

@@ -17,7 +17,6 @@ import { NgClass, NgIf, NgFor, AsyncPipe } from "@angular/common";
 @Component({
     selector: "dynamic-material-select",
     templateUrl: "./dynamic-material-select.component.html",
-    standalone: true,
     imports: [MatFormFieldModule, NgClass, ReactiveFormsModule, NgIf, MatSelectModule, NgFor, MatOptionModule, AsyncPipe]
 })
 export class DynamicMaterialSelectComponent extends DynamicFormControlComponent {

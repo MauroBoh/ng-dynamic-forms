@@ -17,7 +17,6 @@ import { JsonPipe } from "@angular/common";
     styleUrls: ["../../../node_modules/foundation-sites/dist/css/foundation.css"],
     templateUrl: "./foundation-sample-form.component.html",
     encapsulation: ViewEncapsulation.None,
-    standalone: true,
     imports: [JsonPipe, ReactiveFormsModule, DynamicFoundationFormComponent, DynamicTemplateDirective]
 })
 export class FoundationSampleFormComponent {

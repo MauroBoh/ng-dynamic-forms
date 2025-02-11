@@ -7,7 +7,6 @@ import { NgStyle } from "@angular/common";
 @Component({
     selector: "app-root",
     templateUrl: "./app.component.html",
-    standalone: true,
     imports: [RouterOutlet, RouterLink, NgStyle]
 })
 export class AppComponent {
